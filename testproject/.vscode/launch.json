@@ -7,8 +7,7 @@
       "request": "launch",
       "port": 9000,
       "log": true,
-      // this line made it work.
-      "debugServer": 4711 // uncomment this line to debug the adapter 
+      "debugServer": 4711 // uncomment this line to debug the adapter for this config
     },
     {
       "name": "Launch",
@@ -16,7 +15,8 @@
       "type": "php",
       "program": "${file}",
       "cwd": "${workspaceRoot}",
-      "externalConsole": false
+      "externalConsole": false,
+      "debugServer": 4711 // uncomment this line to debug the adapter for this config
     }
   ]
 }
